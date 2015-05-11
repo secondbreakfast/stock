@@ -14,7 +14,6 @@
 		28A533CB1ACF688A0049B3F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A533CA1ACF688A0049B3F7 /* Images.xcassets */; };
 		28A533CE1ACF688A0049B3F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28A533CC1ACF688A0049B3F7 /* LaunchScreen.xib */; };
 		28A533DA1ACF688A0049B3F7 /* StockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A533D91ACF688A0049B3F7 /* StockTests.m */; };
-		28A533E61ACF69720049B3F7 /* LXAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A533E51ACF69720049B3F7 /* LXAddressBook.m */; };
 		28A533E91ACF697C0049B3F7 /* LXDate+RailsTimeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A533E81ACF697C0049B3F7 /* LXDate+RailsTimeConverter.m */; };
 		28A533EE1ACF69850049B3F7 /* LXServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A533EB1ACF69850049B3F7 /* LXServer.m */; };
 		28A533EF1ACF69850049B3F7 /* LXSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A533ED1ACF69850049B3F7 /* LXSession.m */; };
@@ -25,6 +24,12 @@
 		28A534001ACF69AF0049B3F7 /* UIImage+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A533FD1ACF69AF0049B3F7 /* UIImage+Helpers.m */; };
 		28A534011ACF69AF0049B3F7 /* UILabel+Bold.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A533FF1ACF69AF0049B3F7 /* UILabel+Bold.m */; };
 		28A534041ACF6A440049B3F7 /* LXObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A534031ACF6A440049B3F7 /* LXObjects.m */; };
+		28A534061ACF6F4E0049B3F7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 28A534051ACF6F4E0049B3F7 /* Podfile */; };
+		28A534091ACF75C70049B3F7 /* LXAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A534071ACF75C70049B3F7 /* LXAddressBook.m */; };
+		28A5340C1AD0A64F0049B3F7 /* MobileLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A5340B1AD0A64F0049B3F7 /* MobileLogin.storyboard */; };
+		28A534101AD0A6F50049B3F7 /* LXPhoneNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A5340F1AD0A6F50049B3F7 /* LXPhoneNumberViewController.m */; };
+		28A534131AD0A7000049B3F7 /* LXTokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A534121AD0A7000049B3F7 /* LXTokenViewController.m */; };
+		B9793DD86EF509AA8FD8F674 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F455122FD9049861339E9F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +56,6 @@
 		28A533D31ACF688A0049B3F7 /* StockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A533D81ACF688A0049B3F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28A533D91ACF688A0049B3F7 /* StockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockTests.m; sourceTree = "<group>"; };
-		28A533E41ACF69720049B3F7 /* LXAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXAddressBook.h; sourceTree = "<group>"; };
-		28A533E51ACF69720049B3F7 /* LXAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXAddressBook.m; sourceTree = "<group>"; };
 		28A533E71ACF697C0049B3F7 /* LXDate+RailsTimeConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LXDate+RailsTimeConverter.h"; sourceTree = "<group>"; };
 		28A533E81ACF697C0049B3F7 /* LXDate+RailsTimeConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LXDate+RailsTimeConverter.m"; sourceTree = "<group>"; };
 		28A533EA1ACF69850049B3F7 /* LXServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXServer.h; sourceTree = "<group>"; };
@@ -73,6 +76,18 @@
 		28A533FF1ACF69AF0049B3F7 /* UILabel+Bold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Bold.m"; sourceTree = "<group>"; };
 		28A534021ACF6A440049B3F7 /* LXObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXObjects.h; sourceTree = "<group>"; };
 		28A534031ACF6A440049B3F7 /* LXObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXObjects.m; sourceTree = "<group>"; };
+		28A534051ACF6F4E0049B3F7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		28A534071ACF75C70049B3F7 /* LXAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXAddressBook.m; sourceTree = "<group>"; };
+		28A534081ACF75C70049B3F7 /* LXAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXAddressBook.h; sourceTree = "<group>"; };
+		28A5340A1ACF76890049B3F7 /* App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Prefix.pch"; sourceTree = "<group>"; };
+		28A5340B1AD0A64F0049B3F7 /* MobileLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MobileLogin.storyboard; sourceTree = "<group>"; };
+		28A5340E1AD0A6F50049B3F7 /* LXPhoneNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPhoneNumberViewController.h; sourceTree = "<group>"; };
+		28A5340F1AD0A6F50049B3F7 /* LXPhoneNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPhoneNumberViewController.m; sourceTree = "<group>"; };
+		28A534111AD0A7000049B3F7 /* LXTokenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTokenViewController.h; sourceTree = "<group>"; };
+		28A534121AD0A7000049B3F7 /* LXTokenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTokenViewController.m; sourceTree = "<group>"; };
+		482B486F1AD55514B9E2B5F0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		832108382003574B881C950B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A3F455122FD9049861339E9F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9793DD86EF509AA8FD8F674 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +112,12 @@
 		28A533B11ACF688A0049B3F7 = {
 			isa = PBXGroup;
 			children = (
+				28A534051ACF6F4E0049B3F7 /* Podfile */,
 				28A533BC1ACF688A0049B3F7 /* Stock */,
 				28A533D61ACF688A0049B3F7 /* StockTests */,
 				28A533BB1ACF688A0049B3F7 /* Products */,
+				75F0E32BE7AF05504341CD5F /* Pods */,
+				3BD7EADEBCAD2B0EA301051B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,15 +133,18 @@
 		28A533BC1ACF688A0049B3F7 /* Stock */ = {
 			isa = PBXGroup;
 			children = (
+				28A5340D1AD0A6CC0049B3F7 /* MobileLogin */,
 				28A533E31ACF69400049B3F7 /* LXV */,
 				28A533C11ACF688A0049B3F7 /* AppDelegate.h */,
 				28A533C21ACF688A0049B3F7 /* AppDelegate.m */,
 				28A533C41ACF688A0049B3F7 /* ViewController.h */,
 				28A533C51ACF688A0049B3F7 /* ViewController.m */,
+				28A5340B1AD0A64F0049B3F7 /* MobileLogin.storyboard */,
 				28A533C71ACF688A0049B3F7 /* Main.storyboard */,
 				28A533CA1ACF688A0049B3F7 /* Images.xcassets */,
 				28A533CC1ACF688A0049B3F7 /* LaunchScreen.xib */,
 				28A533BD1ACF688A0049B3F7 /* Supporting Files */,
+				28A5340A1ACF76890049B3F7 /* App-Prefix.pch */,
 			);
 			path = Stock;
 			sourceTree = "<group>";
@@ -176,10 +198,38 @@
 				28A533F11ACF698F0049B3F7 /* LXString+NSString.m */,
 				28A533E71ACF697C0049B3F7 /* LXDate+RailsTimeConverter.h */,
 				28A533E81ACF697C0049B3F7 /* LXDate+RailsTimeConverter.m */,
-				28A533E41ACF69720049B3F7 /* LXAddressBook.h */,
-				28A533E51ACF69720049B3F7 /* LXAddressBook.m */,
+				28A534081ACF75C70049B3F7 /* LXAddressBook.h */,
+				28A534071ACF75C70049B3F7 /* LXAddressBook.m */,
 			);
 			name = LXV;
+			sourceTree = "<group>";
+		};
+		28A5340D1AD0A6CC0049B3F7 /* MobileLogin */ = {
+			isa = PBXGroup;
+			children = (
+				28A5340E1AD0A6F50049B3F7 /* LXPhoneNumberViewController.h */,
+				28A5340F1AD0A6F50049B3F7 /* LXPhoneNumberViewController.m */,
+				28A534111AD0A7000049B3F7 /* LXTokenViewController.h */,
+				28A534121AD0A7000049B3F7 /* LXTokenViewController.m */,
+			);
+			name = MobileLogin;
+			sourceTree = "<group>";
+		};
+		3BD7EADEBCAD2B0EA301051B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3F455122FD9049861339E9F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75F0E32BE7AF05504341CD5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				832108382003574B881C950B /* Pods.debug.xcconfig */,
+				482B486F1AD55514B9E2B5F0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28A533DD1ACF688A0049B3F7 /* Build configuration list for PBXNativeTarget "Stock" */;
 			buildPhases = (
+				CBEAA55A84E777C8F9FC82EE /* Check Pods Manifest.lock */,
 				28A533B61ACF688A0049B3F7 /* Sources */,
 				28A533B71ACF688A0049B3F7 /* Frameworks */,
 				28A533B81ACF688A0049B3F7 /* Resources */,
+				5C5026CF2BBDC8158FC7587C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +316,8 @@
 			files = (
 				28A533C91ACF688A0049B3F7 /* Main.storyboard in Resources */,
 				28A533CE1ACF688A0049B3F7 /* LaunchScreen.xib in Resources */,
+				28A5340C1AD0A64F0049B3F7 /* MobileLogin.storyboard in Resources */,
+				28A534061ACF6F4E0049B3F7 /* Podfile in Resources */,
 				28A533CB1ACF688A0049B3F7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,15 +331,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C5026CF2BBDC8158FC7587C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBEAA55A84E777C8F9FC82EE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28A533B61ACF688A0049B3F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				28A533E91ACF697C0049B3F7 /* LXDate+RailsTimeConverter.m in Sources */,
+				28A534101AD0A6F50049B3F7 /* LXPhoneNumberViewController.m in Sources */,
+				28A534091ACF75C70049B3F7 /* LXAddressBook.m in Sources */,
 				28A533C61ACF688A0049B3F7 /* ViewController.m in Sources */,
 				28A533F91ACF699A0049B3F7 /* NSArray+Alphabet.m in Sources */,
 				28A534011ACF69AF0049B3F7 /* UILabel+Bold.m in Sources */,
+				28A534131AD0A7000049B3F7 /* LXTokenViewController.m in Sources */,
 				28A533FA1ACF699A0049B3F7 /* NSDictionary+Attributes.m in Sources */,
 				28A533EE1ACF69850049B3F7 /* LXServer.m in Sources */,
 				28A534041ACF6A440049B3F7 /* LXObjects.m in Sources */,
@@ -295,7 +385,6 @@
 				28A533EF1ACF69850049B3F7 /* LXSession.m in Sources */,
 				28A533FB1ACF699A0049B3F7 /* NSNumber+Helpers.m in Sources */,
 				28A533C01ACF688A0049B3F7 /* main.m in Sources */,
-				28A533E61ACF69720049B3F7 /* LXAddressBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,8 +504,11 @@
 		};
 		28A533DE1ACF688A0049B3F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832108382003574B881C950B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Stock/App-Prefix.pch";
 				INFOPLIST_FILE = Stock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,8 +518,11 @@
 		};
 		28A533DF1ACF688A0049B3F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482B486F1AD55514B9E2B5F0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Stock/App-Prefix.pch";
 				INFOPLIST_FILE = Stock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -488,6 +583,7 @@
 				28A533DF1ACF688A0049B3F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28A533E01ACF688A0049B3F7 /* Build configuration list for PBXNativeTarget "StockTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +592,7 @@
 				28A533E21ACF688A0049B3F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

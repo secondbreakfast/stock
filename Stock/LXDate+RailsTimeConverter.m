@@ -7,7 +7,6 @@
 //
 
 #import "LXDate+RailsTimeConverter.h"
-#import "NSArray+Alphabet.h"
 
 @implementation NSDate (RailsTimeConverter)
 
